@@ -9,3 +9,10 @@
     <%= f.text_area :message %><br>
     <%= f.submit %>
 <% end %>
+
+<h3>Previous Text Messages:</h3>
+<ul>
+    <% @text_messages.each do |text| %>
+        <li><%= text.message %></li>
+    <% end %>
+</ul>
