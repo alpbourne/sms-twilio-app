@@ -1,2 +1,11 @@
-<h1>TextMessages#index</h1>
-<p>Find me in app/views/text_messages/index.html.erb</p>
+<h1>Text Message</h1>
+<p>Send a text message:</p>
+<%= form_for @text_message do |f| %>
+    <%= f.label :name %><br>
+    <%= f.text_area :name %><br>
+    <%= f.label :phone %><br>
+    <%= f.text_area :phone %><br>
+    <%= f.label :message %><br>
+    <%= f.text_area :message %><br>
+    <%= f.submit %>
+<% end %>
