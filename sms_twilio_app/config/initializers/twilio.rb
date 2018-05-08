@@ -1,4 +1,4 @@
 Twilio.configure do |config|
-    config.account_sid = "TWILIO_ACCOUNT_SID"
-    config.auth_token = "TWILIO_TOKEN"
+    config.account_sid = "twilio_account_sid"
+    config.auth_token = "twilio_token"
 end
