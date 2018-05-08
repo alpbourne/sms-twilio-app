@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'twilio/sms'
+  post 'twilio/sms'
 
   resources :text_messages, only: [:create, :index]
 end
