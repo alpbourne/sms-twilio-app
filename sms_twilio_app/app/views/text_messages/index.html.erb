@@ -18,8 +18,11 @@
 <h3>Previous Text Messages:</h3>
   <div class="text-card">
     <% @text_messages.each do |text| %>
-        To: <%=text.name%><br>
+      <div class="text-container">
+        <strong>To: <%=text.name%></strong><br>
         <div class="text-body"><%=text.message %></div>
         <br>
+      </div>
+      <br>
     <% end %>
   </div>
