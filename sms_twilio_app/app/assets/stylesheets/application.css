@@ -18,3 +18,24 @@
    margin-left: 10px;
    color:	#4B0082;
  }
+
+ h3 {
+   margin-left: 10px;
+   color:	#4B0082;
+ }
+
+.text-card {
+  margin-left: 10px;
+}
+
+.text-body {
+  margin-left: 20px;
+}
+
+.text-form {
+  margin-left: 10px;
+}
+
+p {
+  font-weight: bold;
+}
