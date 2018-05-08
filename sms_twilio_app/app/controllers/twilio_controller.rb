@@ -7,9 +7,9 @@ class TwilioController < ApplicationController
     name = "Me"
     TextMessage.new(name: name, phone: phone, message: message).save
     # body = helpers.parse_sms(params)
-    response = Twilio::TwiML::MessagingResponse.new do |r|
-      r.message body: TextMessage.last.message
-    end
-    render xml: response.to_s
+    # response = Twilio::TwiML::MessagingResponse.new do |r|
+    #   r.message body: TextMessage.last.message
+    # end
+    # render xml: response.to_s
   end
 end
